@@ -60,3 +60,27 @@ def brain_calc(player_name):
         else:
             i = 3
     tell_result(player_name, correct_answer, last_answer)
+
+
+def brain_gcd(player_name):
+    print('Find the greatest common divisor of following numbers.')
+    last_answer = ''
+    correct_answer = ''
+    i = 0
+    while i < 3:
+        num1 = randint(1, 100)
+        num2 = randint(1, 100)
+        print(f'Question: {num1} {num2}')
+        last_answer = input('Your answer: ')
+        while num1 != 0 and num2 != 0:
+            if num1 > num2:
+                num1 = num1 % num2
+            else:
+                num2 = num2 % num1
+        correct_answer = str(num1 + num2)
+        if last_answer == str(correct_answer):
+            print('Correct!')
+            i += 1
+        else:
+            i = 3
+    tell_result(player_name, correct_answer, last_answer)
