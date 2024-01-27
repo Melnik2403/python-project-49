@@ -22,7 +22,7 @@ def brain_calc():
 
 
 def brain_gcd():
-    title = 'Find the greatest common divisor of following numbers.'
+    title = 'Find the greatest common divisor of given numbers.'
     num1 = randint(1, 100)
     num2 = randint(1, 100)
     question = f'{num1} {num2}'
