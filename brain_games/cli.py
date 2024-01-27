@@ -13,7 +13,8 @@ def tell_result(player_name, last_answer, correct_answer):
     if last_answer == correct_answer:
         print(f'Congratulations, {player_name}!')
     else:
-        print(f'"{last_answer}" is wrong answer ;(. Correct answer was {correct_answer}.')
+        print(f'"{last_answer}" is wrong answer ;(. '
+              f'Correct answer was {correct_answer}.')
         print(f"Let's try again, {player_name}!")
 
 
