@@ -41,7 +41,7 @@ def ask_question(player_name, round1, round2, round3):
 
 
 def brain_even():
-    title = 'Answer "yes" if answer is even, otherwise answer "no".'
+    title = 'Answer "yes" if number is even, otherwise answer "no".'
     question = randint(1, 100)
     if question % 2 == 0:
         correct_answer = 'yes'
