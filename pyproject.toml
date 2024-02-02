@@ -1,9 +1,15 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "5 simple math games"
 authors = ["Melnik <melnik721ivan@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Melnik2403/python-project-49"
+classifiers = [
+	"Development Status :: 5 - Production/Stable"
+	"Environment :: Console"
+]
+	
 packages = [
   { include = "brain_games" },
 ]
