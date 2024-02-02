@@ -6,7 +6,7 @@ authors = ["Melnik <melnik721ivan@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/Melnik2403/python-project-49"
 classifiers = [
-	"Development Status :: 5 - Production/Stable"
+	"Development Status :: 5 - Production/Stable",
 	"Environment :: Console"
 ]
 	
