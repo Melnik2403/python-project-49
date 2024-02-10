@@ -5,10 +5,7 @@ from brain_games.games import progression
 
 
 def main():
-    cli.ask_question(cli.welcome_user(),
-                     progression.brain_progression(),
-                     progression.brain_progression(),
-                     progression.brain_progression())
+    cli.ask_question(cli.welcome_user(), progression.brain_progression)
 
 
 if __name__ == '__main__':

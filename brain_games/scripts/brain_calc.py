@@ -5,10 +5,7 @@ from brain_games.games import calc
 
 
 def main():
-    cli.ask_question(cli.welcome_user(),
-                     calc.brain_calc(),
-                     calc.brain_calc(),
-                     calc.brain_calc())
+    cli.ask_question(cli.welcome_user(), calc.brain_calc)
 
 
 if __name__ == '__main__':
