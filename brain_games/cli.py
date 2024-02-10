@@ -23,6 +23,7 @@ def ask_question(player_name, game):
             i += 1
         else:
             break
+
     if last_answer == correct_answer:
         print(f'Congratulations, {player_name}!')
     else:
