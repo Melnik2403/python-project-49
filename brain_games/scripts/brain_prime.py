@@ -5,7 +5,7 @@ from brain_games.games import prime
 
 
 def main():
-    cli.ask_question(cli.welcome_user(), prime.brain_prime)
+    cli.ask_question(cli.welcome_user(), prime.TITLE, prime.brain_prime)
 
 
 if __name__ == '__main__':

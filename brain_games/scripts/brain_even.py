@@ -5,7 +5,7 @@ from brain_games.games import even
 
 
 def main():
-    cli.ask_question(cli.welcome_user(), even.brain_even)
+    cli.ask_question(cli.welcome_user(), even.TITLE, even.brain_even)
 
 
 if __name__ == '__main__':

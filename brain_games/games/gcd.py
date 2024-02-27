@@ -1,8 +1,14 @@
 from random import randint
+from typing import Tuple
+
+TITLE = 'Find the greatest common divisor of given numbers.'
 
 
-def brain_gcd():
-    title = 'Find the greatest common divisor of given numbers.'
+def brain_gcd() -> Tuple[str, str]:
+    """
+    This function generates two random numbers.
+    :return: Tuple with question string and correct answer string.
+    """
     num1 = randint(1, 100)
     num2 = randint(1, 100)
     question = f'{num1} {num2}'
@@ -12,4 +18,4 @@ def brain_gcd():
         else:
             num2 = num2 % num1
     correct_answer = str(num1 + num2)
-    return title, question, correct_answer
+    return question, correct_answer
