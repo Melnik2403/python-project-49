@@ -14,4 +14,6 @@ def brain_progression() -> Tuple[str, str]:
     progression = list(range(step, step * 10, step))
     correct_answer = progression[randint(0, len(progression) - 1)]
     progression[progression.index(correct_answer)] = '..'
-    return str(progression), str(correct_answer)
+    progression = map(str, progression)
+    question = ' '.join(progression)
+    return str(question), str(correct_answer)
