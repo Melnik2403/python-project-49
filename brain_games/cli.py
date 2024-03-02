@@ -13,7 +13,8 @@ def welcome_user() -> str:
     return player_name
 
 
-def ask_question(player_name: str, title: str, game: Callable[[], Tuple[str, str]]):
+def ask_question(player_name: str, title: str,
+                 game: Callable[[], Tuple[str, str]]):
     """
     This function plays 3 rounds of some game with user.
     :param player_name: Name of the player.
